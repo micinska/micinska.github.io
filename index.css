@@ -1,0 +1,152 @@
+	* {
+	margin:0;
+	padding:0;
+	
+	}
+body {
+	font:16px Verdena;
+	line-height: 1.6em;
+	background: #e0dfe1;
+	}
+
+main{
+	width:90%;
+	overflow: hidden;
+	margin:1% auto;
+	}
+	
+header { 
+	height:100%;
+	background: linear-gradient(to bottom, black 70%, #cc66cc);
+	margin: 0 0 10px 0;
+	text-align:center;
+	}	
+	
+header h1 {
+	padding:20px;
+	color: white;
+	text-align:center;
+	text-decoration:none;
+	text-transform: uppercase;
+	}
+
+section { 
+	overflow: hidden; 
+	min-height:600px;
+	padding: 1px;
+	width: 90%;
+	padding:15px;
+	background-color: silver;
+	}
+	
+nav {padding:20px;
+	text-align:center;}
+
+
+footer {
+	background: linear-gradient(to bottom, black 70%, #cc66cc);
+	font-size: 14pt; 
+	font-family: ravie; 
+	color: white;
+	text-align:center;
+	}
+nav ul li {
+	list-style-type: none;
+	padding: 0 0 0 10px;
+}
+
+a {
+	color: #354458;
+	}
+
+li a  {
+		text-decoration: none;
+		padding: 4px;
+	
+	  }
+li a.gl:hover {
+		color: yellow;
+		text-decoration: none;
+		background: linear-gradient(to bottom, gray 70%, #cc66cc);
+		font-family: Verdena;
+		padding: 4px;
+	}
+	
+	#ul1
+	{
+		list-style-type: none;
+		margin: 0px;
+		display: block;
+	}
+	
+	#ul1 > li
+	{
+		display: inline-block;
+	}
+	
+	#ul1 > li > a.gl, a.gl:link, a.gl:visited
+	{
+		display: block;
+		width: 300px;
+		height: 25px;
+		background: linear-gradient(to bottom, black 70%, #cc66cc);
+		color: white;
+		font-size: 20px;
+		padding: 5px;
+		margin-right: 10px;
+		text-decoration: none;
+	}
+	
+	#ul1 > li > a.gl:hover
+	{
+		background-color: #8CBBAD;
+	}
+	
+	#ul1 a.gl:active
+	{
+		background-color: #B3B689;
+	}
+	
+	#ul1 > li > ul
+	{	list-style-type: none;
+		color: white;
+		font-family: lato;
+		padding: 0px;
+		position: absolute;
+		display: none;	}
+	
+	#ul1 > li > ul > li > ul
+	{	list-style-type: none;
+		color: white;
+		font-family: lato;
+		padding: 0px;
+		position: relative;
+		left: 299px;
+		bottom: 35px;
+		display: none;	}
+	
+	#ul1 > li > ul > a.gl, a.gl:link, a.gl:visited
+	{	background-color: #454545;
+		border-top: 1px dashed grey;	}
+	
+	#ul1 > li:hover > ul
+	{	display: block;	}
+	
+	#ul1 > li > ul > li > a.gl:hover
+	{	background-color: #333333;	}
+	
+	#ul1 > li:hover > ul > li:hover > ul
+	{	display: block;	}
+	
+	#ul1 > li > ul > li > ul > li > a.gl:hover
+	{	background-color: #333333;	}
+
+@media only screen and (max-width: 650px){
+	body{
+		font:14px Verdena;
+		line-height: 1.6em;
+		background-color:#b3cfdd;
+		}
+	nav {
+		width: 95%;
+		}
